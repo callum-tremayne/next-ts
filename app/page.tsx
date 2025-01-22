@@ -1,10 +1,11 @@
+import Hero from './components/hero'
+
 export default function Home() {
   return (
-<section className="py-24">
-  <div className="container">
-    <h1 className="text-3xl font-bold">Next TS Starter</h1>
-  </div>
-</section>
+    <section className='py-12'>
+      <div className='container'>
+        <Hero />
+      </div>
+    </section>
   )
-  
 }

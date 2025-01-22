@@ -14,12 +14,6 @@ export default {
         md: '1.5rem',
         lg: '2rem'
       }
-    },
-    extend: {
-      colors: {
-        background: 'var(--background)',
-        foreground: 'var(--foreground)'
-      }
     }
   },
   plugins: []
